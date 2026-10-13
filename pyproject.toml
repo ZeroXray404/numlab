@@ -9,5 +9,6 @@ dependencies = [
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "pandas>=3.0.6",
+    "plotnine>=0.15.8",
     "sympy>=1.14.0",
 ]
