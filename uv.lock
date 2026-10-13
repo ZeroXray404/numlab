@@ -1375,6 +1375,7 @@ dependencies = [
     { name = "numpy" },
     { name = "pandas" },
     { name = "plotnine" },
+    { name = "scipy" },
     { name = "sympy" },
 ]
 
@@ -1387,6 +1388,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.5.4" },
     { name = "pandas", specifier = ">=3.0.6" },
     { name = "plotnine", specifier = ">=0.15.8" },
+    { name = "scipy", specifier = ">=1.18.1" },
     { name = "sympy", specifier = ">=1.14.0" },
 ]
 
