@@ -158,6 +158,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.env.*
+
+# Private datasets
+data/private/
 
 # Spyder project settings
 .spyderproject
