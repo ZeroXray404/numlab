@@ -89,6 +89,17 @@ Create a new notebook or open an existing `.ipynb` file to begin experimenting.
 
 ## Usage
 
+## First Exercise: Free Fall with Euler's Method
+
+Start the first physics notebook by converting its Jupytext Python file to a Jupyter notebook:
+
+```bash
+uv run jupytext --to ipynb notebooks/physics/free_fall_euler.py
+uv run jupyter lab notebooks/physics/free_fall_euler.ipynb
+```
+
+The exercise compares Euler's numerical approximation with the exact height equation and plots how the time step affects the result.
+
 ### Example: Visualizing a Mathematical Function
 
 ```python
